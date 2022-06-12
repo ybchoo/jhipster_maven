@@ -1,0 +1,10 @@
+{
+  "tut3App": {
+    "InvoiceStatus": {
+      "null": "",
+      "PAID": "PAID",
+      "ISSUED": "ISSUED",
+      "CANCELLED": "CANCELLED"
+    }
+  }
+}
