@@ -14,6 +14,17 @@
         "orderItem": "Order Item",
         "invoice": "Invoice",
         "shipment": "Shipment",
+        "blog": "Blog",
+        "entry": "Entry",
+        "tag": "Tag",
+        "department": "Department",
+        "jobHistory": "Job History",
+        "job": "Job",
+        "employee": "Employee",
+        "location": "Location",
+        "task": "Task",
+        "country": "Country",
+        "region": "Region",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
