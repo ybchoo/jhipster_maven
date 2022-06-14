@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220614124556",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "country",
+  "fields": [
+    {
+      "fieldName": "countryId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "countryName",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Country",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "region",
+      "otherEntityRelationshipName": "country",
+      "ownerSide": true,
+      "relationshipName": "region",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}
